@@ -1,0 +1,23 @@
+{
+  "type": "postgres",
+  "host": "127.0.0.1",
+  "port": 5454,
+  "username": "postgres",
+  "password": "mysecretpassword",
+  "database": "chat",
+  "logging": true,
+  "synchronize": false,
+  "logger": "simple-console",
+  "keepConnectionAlive": true,
+  "migrationsTableName": "migration",
+  "migrationsRun": true,
+  "entities": [
+    "D:\\mine\\chat\\src\\config/../database/entity/*.entity.ts",
+    "D:\\mine\\chat\\src\\config/../database/entity/*.entity.js"
+  ],
+  "migrations": [
+    "D:\\mine\\chat\\src\\config/../database/migration/*.ts",
+    "D:\\mine\\chat\\src\\config/../database/migration/*.js"
+  ],
+  "ssl": false
+}
